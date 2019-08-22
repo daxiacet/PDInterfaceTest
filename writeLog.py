@@ -1,4 +1,4 @@
-'''
+﻿'''
 Created on 2019年8月13日
 
 @author: JinLian
@@ -6,7 +6,7 @@ Created on 2019年8月13日
 import logging
 # 创建一个日志记录器 logger
 logger = logging.getLogger('mylogger')  # 参数为 日志记录器名称
-logger.setLevel(logging.INGO)  # 设置日志记录器的级别
+logger.setLevel(logging.DEBUG)  # 设置日志记录器的级别
 print(logger.name, logger.parent, type(
     logger), id(logger), id(logger.parent))
 # 创建一个handler，用于写入日志文件
